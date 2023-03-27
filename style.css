@@ -1,0 +1,141 @@
+html{
+    background-color: black;
+    color: aqua;
+}
+
+#proj{
+    display: none;
+}
+.project-container div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid dodgerblue;
+    padding: 10px;
+    color: #f9f500;
+    font-size: x-large;
+    border-radius: 15px;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+.header::selection{
+    background-color: yellow;
+}
+
+#create-new button{
+    height: 25px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: crimson;
+    border: 2px solid crimson;
+    border-radius: 15px;
+    font-weight: 550;
+    color: white;
+}
+
+.project-container div button{
+    background-color: green;
+    font-size: 16px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 3px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+i.fa.fa-plus{
+    color: white;
+    font-size: 16px;
+}
+
+i.fa.fa-edit{
+    color: white;
+}
+
+i.fa.fa-trash{
+    background-color: red;
+    color: white;
+}
+
+.h{
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+    border: 2px solid yellow;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#backbtn{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-size: large;
+}
+/* ----- */
+
+.file-container #tt:focus{
+    border: 7px solid orange;
+}
+.file-container #tt{
+    resize: none;
+    width: 90%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 3px solid red;
+    font-size: x-large;
+    font-family: cursive;
+}
+.file-container .controls{
+    width: 100%;
+}
+.file-container input{
+    font-size: larger;
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.file-container .n{
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.file-container .n button{
+    color: white;
+    font-weight: 700;
+    background-color: blue;
+    border: 3px solid blue;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#pt{
+    display: none;
+}
+
+@media print{
+    .file-container,#backbtn,.h{
+        display: none;
+    }
+    #pt{
+        display: block;
+        color: black;
+        font-size: large;
+    }
+}
